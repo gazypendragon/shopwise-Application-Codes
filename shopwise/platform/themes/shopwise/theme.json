@@ -1,0 +1,7 @@
+{
+    "name": "Shopwise",
+    "namespace": "Theme\\Shopwise\\",
+    "description": "Ecommerce shopping theme",
+    "author": "Botble Technologies",
+    "required_plugins": []
+}
