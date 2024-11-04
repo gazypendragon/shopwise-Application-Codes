@@ -1,1 +1,0 @@
-$((function(){$(document).on("click",".invoice-generate",(function(t){t.preventDefault();var e=$(t.currentTarget),n=$(e.find("span[data-trigger]")).data("url");$httpClient.make().withButtonLoading(e).get(n).then((function(t){var e=t.data;Botble.showSuccess(e.message)}))}))}));
